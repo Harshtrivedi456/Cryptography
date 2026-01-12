@@ -1,4 +1,5 @@
 
+
 # import hashlib
 
 # def hash_string(input_string):
@@ -80,3 +81,4 @@ def md5(message: bytes) -> str:
 # --------------------------
 print(md5(b"hello"))        # should be 5d41402abc4b2a76b9719d911017c592
 print(md5(b"hello world"))  # should be 5eb63bbbe01eeed093cb22bb8f5acdc3
+

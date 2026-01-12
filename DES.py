@@ -1,3 +1,4 @@
+
 # DES Algorithm (Binary)
 # ---------------- PERMUTATION TABLES ----------------
 IP = [
@@ -140,4 +141,5 @@ if __name__ == "__main__":
 # Example inputs (binary form of hex 0123456789ABCDEF and key 133457799BBCDFF1)
     plaintext = [int(b) for b in format(int("0123456789ABCDEF",16),"064b")]
     key = [int(b) for b in format(int("133457799BBCDFF1",16),"064b")]
+
 des_encrypt(plaintext, key)
